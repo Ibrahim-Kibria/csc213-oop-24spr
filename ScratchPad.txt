@@ -1,0 +1,318 @@
+2024-01-21 (Sec 1,2)
+
+class Node{
+	//member of the class
+	int val;	//member data, a.k.a field
+	Node next;	//member data, a.k.a field
+	//member functions, a.k.a method
+	void setNode(){
+		val=0;
+		next=null;
+	}
+
+}
+
+int x,y,z;
+Node head, n1, n2;
+
+class Student{
+	//fields
+	id, name, major, minor, cgpa, dept,....
+	void registerCourse(...){
+		//statements of the method
+	}
+	void viewTranscript(...){
+		//statements of the method
+	}
+	void payBill(...){
+		//statements of the method
+	}
+	void evaluateFaculty(...){
+		//statements of the method
+	}
+
+======================================================================================================
+======================================================================================================
+
+2024-01-22 (Sec 5)
+
+class Node{
+	//member of the class
+	int val;	//member data a.k.a field
+	Node next;	//member data a.k.a field
+	
+	void setData(){	//member function a.k.a method
+		val=234;
+		next = null;
+	}	
+}
+
+class Student{
+
+}
+int x,y,z;
+Node head, n1, n2;
+
+void setNode(n1){
+	n1.val = 123;
+	n1.next = null;
+}
+
+
+Student asif, shafiq;
+
+if(x=y)
+--------------------------
+returnTypeOfTheFunction fnName(pT p1, pT p2){
+
+
+}
+int sum(int val1, int val2){
+	int total = val1+val2;
+	return total;
+}
+
+z = sum(x,y);
+
+
+void setNode(n1){
+	n1.val=0;
+	n1.next=null;
+}
+
+======================================================================================================
+======================================================================================================
+2024-01-23 (Sec 1)
+
+Project Name:JavaFXApplication27
+Create Application Class: javafxapplication27.JavaFXApplication27
+
+
+
+Project Name:Java Basics, Hello World (Sec-1)
+Create Application Class: java.basics.hello.world.sec.pkg1.JavaBasicsHelloWorldSec1
+Create Application Class: mainpkg.MainApplicationClass
+
+public static void main(...){
+	int distance1,distance2;
+	a=11; b=22;
+	float average;
+	f = (a+b)/2.0;
+	
+}
+
+void printCgpa(){
+	
+}
+
+float averageCgpa;
+
+
+findMax()
+
+======================================================================================================
+======================================================================================================
+
+2024-01-23 (Sec 2)
+
+int x,y;
+
+class Node{
+	//member of the class
+	int val;	//member data a.k.a field
+	Node next;	//member data a.k.a field
+
+	void setNode(){	//member function a.k.a method
+		//val=0;
+		val = int(input("Enter data:"))
+		next = null;
+	}
+}
+
+public static void main(...){
+	int x,y;
+	float avg;
+	x=12; y=13;
+	avg = (x+y)/2.0;
+
+	Node head, n1, n2;	//class variable, a.k.a object
+	head.val = 0;
+	head.next = null;
+	n1.setNode();
+}
+
+
+======================================================================================================
+======================================================================================================
+
+2024-01-24 (Sec 5)
+
+py: x = int(input())
+
+Java: 
+int x;
+x =  234;
+
+
+class name: Stack, Queue, Node, BST, Student
+
+class Node{
+	//member of the class
+	int val;	//member data a.k.a field
+	Node next;	//member data a.k.a field
+
+	void setInfo(){	//member function a.k.a method
+		val=0;
+		next=null;
+	}
+
+}
+
+
+void setNode(Node n){
+	n.val = 0;
+	n.next = null;
+}
+
+
+public static void main(...){
+	int x,y,z;
+	Node head, n1, n2;	//class variable a.k.a object
+	Student asif, luna;	object of Student
+	head.val = 123;
+	head.next=null;
+	setNode(n1);
+
+}
+
+Project Name:JavaFXApplication29
+Create Application Class: javafxapplication29.JavaFXApplication29
+
+Create Application Class: mainpkg.MainApplicationClass
+
+
+================================================================================
+2024-01-24 (Sec 6)
+
+Python:
+x = 5
+y = int(input("Enter y: "))
+z = x+y
+
+Java:
+int x,y,z;
+x = 12;
+y = 13;
+z = x+y;
+
+class: 203: Stack, Queue, Node, Tree, Student, BST
+
+class Node{
+	//member of the class
+	int value;	//member data a.k.a field
+	Node next;	//member data a.k.a field
+
+	void setInfo(){	//member function a.k.a method
+		val=0;
+		next=null;
+	}
+
+}
+
+//function definition (body)
+void setNode(Node n){
+	n.val=0;
+	n.next=null;
+}
+
+
+public static void main(...){
+	//statements including calling other functions
+	int a, b, c;
+	Node head, n1, n2;	//class variable a.k.a object
+
+	head.val = 0;
+	head.next = null;
+
+	setNode(n1);	//function call
+
+}
+
+Coding convention:
+int quizMark1, quizMark2;
+
+Project Name:JavaFXApplication30
+Project Name: Java Basics, Hello World (Sec-6)
+
+Create Application Class: javafxapplication30.JavaFXApplication30
+java.basics.hello.world.sec.pkg6.JavaBasicsHelloWorldSec6
+Create Application Class: mainpkg.pkg6.MainApplicationClass
+================================================================================
+2024-01-28 (Sec 1)
+
+OTT
+	- Viewer			: Specific
+	- Premium Subscriber		: Specific
+	- Content Manager		: Specific
+	- Revenue Team			: General ***
+		- Accountant / 		: Specific
+	- Marketing & Promoting Team	: General ***
+	- User Manager			: Specific
+	- Legality Handler		: General ***
+	- Technical Support		: General ***
+
+Premium Subscriber:
+	- G1: Accecc to VIP content		: Specific
+	- G2: Download content			: Specific
+	- G3: Create WatchList			: Specific
+	- G4: Rate the content			: Specific
+	- G5: Pay subscription fees		: Specific
+	- G6: Cancel subscription		: Specific
+	- G7: Renew subscription		: Specific
+	- G8: consult with customer support 	: Specific
+
+
+Topic: Music Band
+	- Band members 	:User will not be plural
+	- Band member		: Specific
+	- Fan			: 
+	- Director
+	- Event Organizer
+	- Marchendiser
+	- Band promoter
+	- Media and journalist	
+	- Consert Attender
+================================================================================
+2024-01-29 (Sec 5)
+
+in Hello World project:
+Model		:	NIL
+View		:	FXMLDocument.fxml
+Controller	:	FXMLDocumentController.java
+Launching class	:	MainApplicationClass.java	
+
+================================================================================
+
+
+
+
+================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="542.0" prefWidth="839.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="mainpkg.InputOutputSceneController">
+   <children>
+      <Label layoutX="54.0" layoutY="64.0" prefHeight="35.0" prefWidth="143.0" text="Enter ID" />
+      <Label layoutX="54.0" layoutY="126.0" prefHeight="35.0" prefWidth="143.0" text="Enter name" />
+      <Label layoutX="54.0" layoutY="187.0" prefHeight="35.0" prefWidth="143.0" text="Enter cgpa" />
+      <TextField layoutX="288.0" layoutY="56.0" prefHeight="46.0" prefWidth="304.0" />
+      <TextField layoutX="288.0" layoutY="121.0" prefHeight="46.0" prefWidth="304.0" />
+      <TextField layoutX="288.0" layoutY="182.0" prefHeight="46.0" prefWidth="304.0" />
+      <Button layoutX="56.0" layoutY="284.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="283.0" text="Create new student" />
+      <Button layoutX="420.0" layoutY="284.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="283.0" text="Show student info" />
+      <TextArea layoutX="98.0" layoutY="349.0" prefHeight="170.0" prefWidth="594.0" />
+   </children>
+</AnchorPane>
